@@ -2,8 +2,7 @@ import React from "react";
 
 const Menu = () => {
     return (
-    <div className="container mt-5">
-            <img src="./public/img/menu.png" alt="Menú" className="img-fluid" width="1920"/>
+    <div className="container w-auto mt-5 mb-5">
             <div className="row p-3">
                 <h2 className="col-md-12 text-center">Carta</h2>
                 <h3 className="col-md-12 text-center" >Muy wow, muy sabrosa, muy brutal</h3>
@@ -16,3 +15,4 @@ const Menu = () => {
 }
 
 export default Menu;
+
